@@ -1,0 +1,61 @@
+# ===============================
+# 1. Sum of integers in a list
+# ===============================
+
+# Accept user input, split into integers, and store in a list
+numbers = list(map(int, input("Enter integers separated by spaces: ").split()))
+print("Your list:", numbers)
+
+# Compute sum
+print("Sum of all integers:", sum(numbers))
+
+
+# ===============================
+# 2. Tuple of favorite books
+# ===============================
+
+favorite_books = (
+    "Things Fall Apart",
+    "The Holy Bible",
+    "Rich Dad Poor Dad",
+    "Half of a Yellow Sun",
+    "Atomic Habits"
+)
+
+print("\nMy Favorite Books:")
+for book in favorite_books:
+    print(book)
+
+
+# ===============================
+# 3. Dictionary with user input
+# ===============================
+
+person = {}
+person["name"] = input("\nEnter your name: ")
+person["age"] = input("Enter your age: ")
+person["favorite_color"] = input("Enter your favorite color: ")
+
+print("Person information:", person)
+
+
+# ===============================
+# 4. Common elements in two sets
+# ===============================
+
+set1 = set(map(int, input("\nEnter integers for first set (space separated): ").split()))
+set2 = set(map(int, input("Enter integers for second set (space separated): ").split()))
+
+common = set1.intersection(set2)
+print("Common elements in both sets:", common)
+
+
+# ===============================
+# 5. List comprehension with odd length words
+# ===============================
+
+words = ["python", "java", "kotlin", "javascript", "go", "swift"]
+
+odd_length_words = [word for word in words if len(word) % 2 != 0]
+
+print("\nWords with odd number of characters:", odd_length_words)

@@ -1,6 +1,10 @@
 CREATE  X CALCULATOR- USE PYTHON
 ""
+<<<<<<< HEAD
     A  X calculator program that performs basic arithmetic operations.
+
+    A simple calculator program that performs basic arithmetic operations.
+>>>>>>> origin/main
     """
     print("=== Basic Calculator ===")
     print("Available operations: +, -, *, /")

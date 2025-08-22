@@ -1,4 +1,3 @@
-_______________________________________________________________________________________
 #!/usr/bin/env python3
 """Simple Quiz Game 🎮
 A fun multiple-choice quiz with questions about Python, movies, and general knowledge.
