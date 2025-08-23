@@ -1,0 +1,5 @@
+Python is powerful.
+Learning to code is fun.
+Git and GitHub help manage projects.
+Practice makes perfect.
+Stay consistent and never give up.
